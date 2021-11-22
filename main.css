@@ -1,14 +1,59 @@
-.background {
+.body {
     font: 100;
     font-size: large;
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
+    background: #84B55F;
+}
+img{
+    width: min-content;
+    top: min-content;
+    size: 20px;
+}
+
+header{
+    background: #F07847;
+    font-size: 125%;
+    text-align: center;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    background: #76BED0;
+}
+
+nav{
+    font-variant: small-caps;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170%;
+}
+
+h2{
+    color: tomato;
+    background: #FFFFFF;
+    text-align: center;
+}
+summary{
+    font-style: italic;
+}
+
+blockquote{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+details{
+    font-style: oblique;
+    background: #878E88;
 }
 
 div {
     margin: auto;
     padding: 5px;
-    border: dashed yellow 10px;
+    border: dashed 10px;
     border-width: 5px;
+    background-color: #F7CB15;
 }
