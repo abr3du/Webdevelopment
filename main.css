@@ -4,12 +4,15 @@
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    background: #84B55F;
+    background: #f1f1f1;
 }
 img{
+    align-items: center;
+    text-align: center;
     width: min-content;
     top: min-content;
-    size: 20px;
+    size: 100spx;
+    flex-direction: column;
 }
 
 header{
@@ -18,9 +21,10 @@ header{
     text-align: center;
 }
 h1{
-    color: aqua;
+    color: rgb(240, 240, 243);
     text-align: center;
-    background: #76BED0;
+    background: #578591;
+    font-family: 'Comforter', cursive;
 }
 
 nav{
@@ -47,7 +51,12 @@ blockquote{
 
 details{
     font-style: oblique;
-    background: #878E88;
+    background: #e285a4;
+    border-radius: 1cm;
+    -webkit-border-radius: 1cm;
+    -moz-border-radius: 1cm;
+    -ms-border-radius: 1cm;
+    -o-border-radius: 1cm;
 }
 
 div {
@@ -55,5 +64,5 @@ div {
     padding: 5px;
     border: dashed 10px;
     border-width: 5px;
-    background-color: #F7CB15;
+    background-color: #f3cb2c;
 }
